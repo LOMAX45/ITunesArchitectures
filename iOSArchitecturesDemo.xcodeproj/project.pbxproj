@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		83AD922A807064A2DD292415 /* Pods_iOSArchitecturesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEA6AF9F424A0D5873D2723 /* Pods_iOSArchitecturesDemo.framework */; };
+		C1B1A29D284F50CE000FDC51 /* AppWhatsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1A29C284F50CE000FDC51 /* AppWhatsNewViewController.swift */; };
+		C1B1A29F284F5155000FDC51 /* AppDetailWhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1A29E284F5155000FDC51 /* AppDetailWhatsNewView.swift */; };
 		DDA5B1A827C25B22003BD45B /* AppDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5B1A727C25B22003BD45B /* AppDetailHeaderView.swift */; };
 		DDA5B1AA27C25CF5003BD45B /* AppDetailHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5B1A927C25CF5003BD45B /* AppDetailHeaderViewController.swift */; };
 		DDA5B1AD27C3B25A003BD45B /* SearchPresenteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5B1AC27C3B25A003BD45B /* SearchPresenteer.swift */; };
@@ -37,6 +39,8 @@
 		8BE349225151AE13B1EDE333 /* Pods-iOSArchitecturesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitecturesDemo/Pods-iOSArchitecturesDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8EEA6AF9F424A0D5873D2723 /* Pods_iOSArchitecturesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitecturesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A067E149D296BC0C249FD11F /* Pods-iOSArchitecturesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitecturesDemo/Pods-iOSArchitecturesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C1B1A29C284F50CE000FDC51 /* AppWhatsNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWhatsNewViewController.swift; sourceTree = "<group>"; };
+		C1B1A29E284F5155000FDC51 /* AppDetailWhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailWhatsNewView.swift; sourceTree = "<group>"; };
 		DDA5B1A727C25B22003BD45B /* AppDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderView.swift; sourceTree = "<group>"; };
 		DDA5B1A927C25CF5003BD45B /* AppDetailHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderViewController.swift; sourceTree = "<group>"; };
 		DDA5B1AC27C3B25A003BD45B /* SearchPresenteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenteer.swift; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 			children = (
 				F8114FC422A3E77500102830 /* AppDetailView.swift */,
 				DDA5B1A727C25B22003BD45B /* AppDetailHeaderView.swift */,
+				C1B1A29E284F5155000FDC51 /* AppDetailWhatsNewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			children = (
 				E0E1D3D0203C48D70011E01A /* AppDetailViewController.swift */,
 				DDA5B1A927C25CF5003BD45B /* AppDetailHeaderViewController.swift */,
+				C1B1A29C284F50CE000FDC51 /* AppWhatsNewViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -430,6 +436,7 @@
 				E0E1D387203AE45F0011E01A /* WebRequest.swift in Sources */,
 				F8A1E03C2248382F00FE6448 /* Monads.swift in Sources */,
 				DDA5B1AA27C25CF5003BD45B /* AppDetailHeaderViewController.swift in Sources */,
+				C1B1A29D284F50CE000FDC51 /* AppWhatsNewViewController.swift in Sources */,
 				E0E1D3D4203C4AA50011E01A /* UIColor+Extensions.swift in Sources */,
 				DDA5B1A827C25B22003BD45B /* AppDetailHeaderView.swift in Sources */,
 				E0E1D3D1203C48D70011E01A /* AppDetailViewController.swift in Sources */,
@@ -443,6 +450,7 @@
 				E0E1D392203AE58B0011E01A /* ITunesSearchService.swift in Sources */,
 				E0E1D2932034A3350011E01A /* AppDelegate.swift in Sources */,
 				E0E1D384203AE3620011E01A /* AppStartManager.swift in Sources */,
+				C1B1A29F284F5155000FDC51 /* AppDetailWhatsNewView.swift in Sources */,
 				F8114FC122A3E5EE00102830 /* AppCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
